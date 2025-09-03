@@ -6,11 +6,11 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Data
-@AllArgsConstructor // tüm alanları set eden constructor
+@AllArgsConstructor
 @NoArgsConstructor
 public class Developer {
     private Integer id;
     private String name;
-    private Double salary;      // Net maaş tutulacak (vergiden sonra)
+    private Double salary;
     private Experience experience;
 }
